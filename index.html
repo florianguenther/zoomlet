@@ -1,36 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset='utf-8'>
+---
+layout: default
+title:  florianguenther/zoomlet @ GitHub
+---
 
-  <title>florianguenther/zoomlet @ GitHub</title>
-
-  <style type="text/css">
-    body {
-      margin-top: 1.0em;
-      background-color: #000000;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #ffffff;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-    h1 { font-size: 3.8em; color: #ffffff; margin-bottom: 3px; }
-    h1 .small { font-size: 0.4em; }
-    h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #ffffff; }
-    h3 { text-align: center; color: #ffffff; }
-    a { color: #ffffff; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-  </style>
-</head>
-
-<body>
   <a href="https://github.com/florianguenther/zoomlet"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
 
   <div id="container">
@@ -50,24 +22,28 @@
     </div>
 
     
+<h2>Usage</h2>
+<ul>
+  <li>Bookmark this link: <a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='http://florianguenther.com/assets/zoomlet.js';})();">Bookmarklet</a> <em>(drag it to your bookmark bar)</em></li>
+  <li>Visit any website you want</li>
+  <li>Click the bookmarklet</li>
+  <li>Use your Mouswheel to zoom in and out, click and hold to pan around</li>
+  <li>... or - on an iPad - use two fingers to zoom and pan</li>
+</ul>
+
+<h2>The Bookmarklet-Link Code</h2>
+<pre>
+javascript:(function(){
+  document.body.appendChild(document.createElement('script'))
+  .src='http://florianguenther.com/assets/zoomlet.js';
+})();
+</pre>
+    
 
     
-      <h2>Dependencies</h2>
-      <p>zui53</p>
-    
-
-    
-
-    
-
-    
-      <h2>Authors</h2>
-      <p>Florian Günther (mail@gee-f.de)<br/>      </p>
-    
-
-    
-      <h2>Contact</h2>
-      <p>Florian Günther (mail@gee-f.de)<br/>      </p>
+      <h2>Author</h2>
+      <p>Florian G&uuml;nther (me@florianguenther.com)
+<br/>      </p>
     
 
     <h2>Download</h2>
@@ -87,5 +63,4 @@
 
   </div>
 
-</body>
-</html>
+
